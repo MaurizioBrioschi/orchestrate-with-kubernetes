@@ -4,8 +4,8 @@ metadata:
   name: "monolith"
 spec:
   selector:
-    app: "monolith"
-    secure: "enabled"
+    app: "monolith" #expose pod with label monolith and secure = enable
+    secure: "enabled" 
   ports:
     - protocol: "TCP"
       port: 443
